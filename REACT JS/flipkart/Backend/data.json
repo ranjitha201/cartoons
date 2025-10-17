@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": "6077",
+      "trainer": "darshan",
+      "subject": "react",
+      "gender": "MALE",
+      "branch": "Banglore"
+    },
+    {
+      "id": "b87c",
+      "trainer": "darshan",
+      "subject": "react",
+      "gender": "MALE",
+      "branch": "Banglore"
+    },
+    {
+      "id": "1cd7",
+      "trainer": "Ranju",
+      "subject": "react",
+      "gender": "FEMALE",
+      "branch": "Manglore",
+      "languages": "Kannada"
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+// import React, { Component } from 'react'
+// import Cart from './Cart'
+
+// export default class App extends Component {
+//   constructor(){
+//     super()
+
+//     this.name="darshan"
+
+//   }
+//   render() {
+//     return (
+//       <div>
+//        <Cart dinga={this.name}></Cart>
+//       </div>
+//     )
+//   }
+// }
+
+
+
+// import React, { Component } from 'react'
+
+
+// export default class App extends Component {
+//   constructor(){
+//     super()
+
+//     this.data="dingiiiiiiiiiiii"
+
+//   }
+//   render() {
+//     return (
+//       <div>
+//         <Cart data={this.data}></Cart>
+//       </div>
+//     )
+//   }
+// }
+
+
+
+
+// import React, { Component } from 'react'
+// import Cart from './Cart'
+
+// export default class App extends Component {
+//   render() {
+//     return (
+//       <div>
+//         <Cart data={{name:"darshan",age:25,place:"banglore"}}></Cart>
+//       </div>
+//     )
+//   }
+// }
+
+
+
+// import React, { Component } from 'react'
+// import Cart from './Cart'
+
+// export default class App extends Component {
+//   render() {
+//     return (
+//       <div>
+//         <Cart data={["banglore","mysore","sakleshpur","madkeri"]}></Cart>
+//       </div>
+//     )
+//   }
+// }
+
+
+
+import React, { Component } from 'react'
+import JSON from "./data.json"
+import Cart from './Cart'
+
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <Cart data={JSON}></Cart>
+      </div>
+    )
+  }
+}
+
+
+
+cart
+
+// import React, { Component } from 'react'
+
+// export default class Cart extends Component {
+//   render(props) {
+//     console.log(this.props);
+    
+
+//     return (
+//       <div>
+//         <h1>{this.props.dinga}</h1>
+//       </div>
+//     )
+//   }
+// }
+
+
+
+// import React, { Component } from 'react'
+// import Products from './Products';
+
+// export default class Cart extends Component {
+//   render(props) {
+//     console.log(this.props.data);
+    
+//     return (
+//       <div>
+//         <Products data1={this.props.data}></Products>
+//       </div>
+//     )
+//   }
+// }
+
+
+
+// import React, { Component } from 'react'
+
+// export default class Cart extends Component {
+//   render(props) {
+//     console.log(this.props);
+    
+
+    
+//     return (
+//       <div>
+//         <h1>{this.props.data.name}</h1>
+//       </div>
+//     )
+//   }
+// }
+
+
+// import React, { Component } from 'react'
+// import Products from './Products';
+
+// export default class Cart extends Component {
+//   render(props) {
+//     console.log(this.props);
+    
+//     return (
+//       <div>
+//         <Products data1={this.props.data}></Products>
+//       </div>
+//     )
+//   }
+// }
+
+
+import React, { Component } from 'react'
+import Products from './Products';
+
+export default class Cart extends Component {
+  render(props) {
+    console.log(this.props);
+    
+    return (
+      <div>
+        <Products data1={this.props.data}></Products>
+      </div>
+    )
+  }
+}
+
+
+product
+
+// import React, { Component } from 'react'
+
+// export default class Products extends Component {
+//   render(props) {
+//     console.log(this.props);
+    
+//     return (
+//       <div>
+//         <h1>{this.props.data1}</h1>
+//       </div>
+//     )
+//   }
+// }
+
+
+// import React, { Component } from 'react'
+
+// export default class Products extends Component {
+//   render(props) {
+//     console.log(this.props);
+    
+//     return (
+//       <div>
+//         {
+//             this.props.data1.map((max)=>{
+//                 console.log(max);
+
+//               return  <div>
+
+//                     <h1>{max}</h1>
+
+//               </div> 
+                
+
+//             })
+//         }
+//       </div>
+//     )
+//   }
+// }
+
+
+
+
+
+import React, { Component, Fragment } from 'react'
+
+export default class Products extends Component {
+  render(props) {
+    console.log(this.props);
+    
+    return (
+      <div>
+        {
+            this.props.data1.products.map((max)=>{
+
+                console.log(max);
+
+                return <Fragment>
+                    <img src={max.images[0]} alt="" />
+                </Fragment>
+                    
+                
+                
+
+            })
+        }
+      </div>
+    )
+  }
+}

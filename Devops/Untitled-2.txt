@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ranjitha S - Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      line-height: 1.6;
+      background: #f4f6f9;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.1rem;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #2c3e50;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
+    ul {
+      margin-left: 1.5rem;
+    }
+    .skills, .languages {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .skills span, .languages span {
+      background: #ecf0f1;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #2c3e50;
+      color: #fff;
+      margin-top: 2rem;
+    }
+    footer a {
+      color: #1abc9c;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ranjitha S</h1>
+    <p>Java Backend Developer | Computer Science Engineer</p>
+    <nav>
+      <a href="#profile">Profile</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="profile">
+    <h2>Profile</h2>
+    <p>
+      To work for a well-reputed organization where I can apply my skills and contribute to the growth 
+      of the company, while growing parallel with it.
+    </p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>2025 - B.E in Computer Science & Engineering</strong>, RYMEC Ballari, 84.18%</li>
+      <li><strong>2021 - PUC</strong>, Bellary Independent PU College, 84.83%</li>
+      <li><strong>2019 - SSLC</strong>, Shree Shaileshwara Vidya Kendra Sandur, 74.60%</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>Core Java</span><span>SQL</span><span>HTML</span><span>CSS</span>
+      <span>JavaScript</span><span>Shell/Bash</span><span>Spring Boot</span>
+      <span>RESTful APIs</span><span>MVC</span><span>OOPs</span><span>Agile</span>
+      <span>SDLC</span><span>Apache Tomcat</span><span>Networking</span>
+      <span>Windows</span><span>Linux</span><span>Problem-solving</span>
+      <span>Team Collaboration</span><span>Adaptability</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Zoo Management System</strong> – Multi-user system with admin, staff, and visitor roles, real-time ticketing analytics, and responsive UI.</li>
+      <li><strong>Blood Pressure Prediction</strong> – Predictive model using Random Forest Classifier on healthcare data with preprocessing and feature selection.</li>
+    </ul>
+  </section>
+
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <ul>
+      <li>Internship on C-Coding skills – CHANEL B.TECH (Oct 2022)</li>
+      <li>Workshop on Cyber Security & Ethical Hacking – TECHMAGI</li>
+      <li>Workshop on AngularJS</li>
+    </ul>
+  </section>
+
+  <section id="languages">
+    <h2>Languages</h2>
+    <div class="languages">
+      <span>Kannada</span><span>Hindi</span><span>English</span><span>Telugu</span>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:ranjithassdr674@gmail.com">ranjithassdr674@gmail.com</a></p>
+    <p>Phone: <a href="tel:7892289283">7892289283</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/ranjitha12" target="_blank">linkedin.com/in/ranjitha12</a></p>
+    <p>Location: Bangalore, India</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ranjitha S | Built with ❤️ in HTML & CSS</p>
+  </footer>
+
+</body>
+</html>
